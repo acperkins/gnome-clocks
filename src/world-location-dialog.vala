@@ -55,7 +55,7 @@ private class LocationDialog : Gtk.Window {
         }
     }
 
-    private const int RESULT_COUNT_LIMIT = 12;
+    private const int RESULT_COUNT_LIMIT = 100;
 
     public LocationDialog (Gtk.Window parent, Face world_face) {
         Object (transient_for: parent);
